@@ -2,10 +2,19 @@
 
 dev
 ```
-deno run -A https://plan98.org/server.js
+deno task start
 ```
 
 test
 ```
-deno run --allow-env --config deno.json --location http://localhost tests.js
+deno task test
+```
+
+```
+True is true true
+False is not true true
+A value could be anything really true
+Math will always math true
+A Saga will always be a string true
+An Elf has self-transforming properties true
 ```

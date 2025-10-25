@@ -1,8 +1,9 @@
 {
-  "name": "@silly/linux",
+  "name": "@plan98/silly",
   "version": "0.1.0",
-  "exports": "./mod.ts",
+  "exports": "./plan68.js",
   "tasks": {
+    "start": "deno run -A https://plan98.org/server.js",
     "test": "deno run --allow-env --config deno.json --location http://localhost tests.js"
   },
   "imports": {
