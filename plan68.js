@@ -354,8 +354,6 @@ export async function touch(src, config={ type: 'application/json' }) {
     })
 }
 
-window.touch = touch
-
 async function guaranteeTheData(link, target) {
   const space = getSpace(target.id)
 
@@ -429,5 +427,3 @@ export async function del(src) {
       return res
     })
 }
-
-window.eventMaze = eventMaze

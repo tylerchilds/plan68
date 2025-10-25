@@ -1,0 +1,26 @@
+{
+  "name": "@silly/linux",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "test": "deno run --allow-env --config deno.json --location http://localhost tests.js"
+  },
+  "imports": {
+    "@silly/elf": "./plan68.js",
+    "@silly/saga": "./saga.js",
+    "@did.coop/did-key-ed25519": "https://esm.sh/@did.coop/did-key-ed25519",
+    "@wallet.storage/fetch-client": "https://esm.sh/@wallet.storage/fetch-client@^1.1.3",
+    "diffhtml": "https://esm.sh/diffhtml@1.0.0-beta.30"
+  },
+  "compilerOptions": {},
+  "deploy": {
+    "project": "b4b54450-dd7a-4a96-8504-02b5471377d7",
+    "exclude": [
+      "./private",
+      "./public",
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "client/server.js"
+  }
+}

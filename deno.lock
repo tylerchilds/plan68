@@ -1,0 +1,160 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:linkedom@0.18.5": "0.18.5"
+  },
+  "npm": {
+    "boolbase@1.0.0": {
+      "integrity": "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww=="
+    },
+    "css-select@5.2.2": {
+      "integrity": "sha512-TizTzUddG/xYLA3NXodFM0fSbNizXjOKhqiQQwvhlspadZokn1KDy0NZFS0wuEubIYAV5/c1/lAr0TaaFXEXzw==",
+      "dependencies": [
+        "boolbase",
+        "css-what",
+        "domhandler",
+        "domutils",
+        "nth-check"
+      ]
+    },
+    "css-what@6.2.2": {
+      "integrity": "sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA=="
+    },
+    "cssom@0.5.0": {
+      "integrity": "sha512-iKuQcq+NdHqlAcwUY0o/HL69XQrUaQdMjmStJ8JFmUaiiQErlhrmuigkg/CU4E2J0IyUKUrMAgl36TvN67MqTw=="
+    },
+    "dom-serializer@2.0.0": {
+      "integrity": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+      "dependencies": [
+        "domelementtype",
+        "domhandler",
+        "entities"
+      ]
+    },
+    "domelementtype@2.3.0": {
+      "integrity": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw=="
+    },
+    "domhandler@5.0.3": {
+      "integrity": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+      "dependencies": [
+        "domelementtype"
+      ]
+    },
+    "domutils@3.2.2": {
+      "integrity": "sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==",
+      "dependencies": [
+        "dom-serializer",
+        "domelementtype",
+        "domhandler"
+      ]
+    },
+    "entities@4.5.0": {
+      "integrity": "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw=="
+    },
+    "html-escaper@3.0.3": {
+      "integrity": "sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ=="
+    },
+    "htmlparser2@9.1.0": {
+      "integrity": "sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==",
+      "dependencies": [
+        "domelementtype",
+        "domhandler",
+        "domutils",
+        "entities"
+      ]
+    },
+    "linkedom@0.18.5": {
+      "integrity": "sha512-JGLaGGtqtu+eOhYrC1wkWYTBcpVWL4AsnwAtMtgO1Q0gI0PuPJKI0zBBE+a/1BrhOE3Uw8JI/ycByAv5cLrAuQ==",
+      "dependencies": [
+        "css-select",
+        "cssom",
+        "html-escaper",
+        "htmlparser2",
+        "uhyphen"
+      ]
+    },
+    "nth-check@2.1.1": {
+      "integrity": "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==",
+      "dependencies": [
+        "boolbase"
+      ]
+    },
+    "uhyphen@0.2.0": {
+      "integrity": "sha512-qz3o9CHXmJJPGBdqzab7qAYuW8kQGKNEuoHFYrBwV6hWIMcpAmxDLXojcHfFr9US1Pe6zUswEIJIbLI610fuqA=="
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@did.coop/did-key-ed25519": "https://esm.sh/@did.coop/did-key-ed25519@0.0.9",
+    "https://esm.sh/@digitalbazaar/did-io@^2.0.0?target=denonext": "https://esm.sh/@digitalbazaar/did-io@2.0.0?target=denonext",
+    "https://esm.sh/@digitalbazaar/did-method-key@^5.2.0?target=denonext": "https://esm.sh/@digitalbazaar/did-method-key@5.2.0?target=denonext",
+    "https://esm.sh/@digitalbazaar/ed25519-verification-key-2020@^4.2.0?target=denonext": "https://esm.sh/@digitalbazaar/ed25519-verification-key-2020@4.2.0?target=denonext",
+    "https://esm.sh/@digitalbazaar/http-signature-header@^5.0.1?target=denonext": "https://esm.sh/@digitalbazaar/http-signature-header@5.0.1?target=denonext",
+    "https://esm.sh/@digitalbazaar/lru-memoize@^3.0.0?target=denonext": "https://esm.sh/@digitalbazaar/lru-memoize@3.0.2?target=denonext",
+    "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2019@^6.0.0?target=denonext": "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2019@6.0.0?target=denonext",
+    "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2020@^3.0.0?target=denonext": "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2020@3.0.1?target=denonext",
+    "https://esm.sh/@noble/ed25519@^1.6.0?target=denonext": "https://esm.sh/@noble/ed25519@1.7.5?target=denonext",
+    "https://esm.sh/@wallet.storage/fetch-client@^1.1.3": "https://esm.sh/@wallet.storage/fetch-client@1.2.0",
+    "https://esm.sh/assert-plus@^1.0.0?target=denonext": "https://esm.sh/assert-plus@1.0.0?target=denonext",
+    "https://esm.sh/authorization-signature@^1.0.3?target=denonext": "https://esm.sh/authorization-signature@1.1.0?target=denonext",
+    "https://esm.sh/base58-universal@^2.0.0?target=denonext": "https://esm.sh/base58-universal@2.0.0?target=denonext",
+    "https://esm.sh/base64url-universal@^2.0.0?target=denonext": "https://esm.sh/base64url-universal@2.0.0?target=denonext",
+    "https://esm.sh/base64url@^3.0.1?target=denonext": "https://esm.sh/base64url@3.0.1?target=denonext",
+    "https://esm.sh/crypto-ld@^7.0.0?target=denonext": "https://esm.sh/crypto-ld@7.0.0?target=denonext",
+    "https://esm.sh/ed2curve@^0.3.0?target=denonext": "https://esm.sh/ed2curve@0.3.0?target=denonext",
+    "https://esm.sh/lru-cache@^6.0.0?target=denonext": "https://esm.sh/lru-cache@6.0.0?target=denonext",
+    "https://esm.sh/tweetnacl@1.x.x?target=denonext": "https://esm.sh/tweetnacl@1.0.3?target=denonext",
+    "https://esm.sh/tweetnacl@^1.0.3?target=denonext": "https://esm.sh/tweetnacl@1.0.3?target=denonext",
+    "https://esm.sh/yallist@^4.0.0?target=denonext": "https://esm.sh/yallist@4.0.0?target=denonext",
+    "https://esm.sh/zod@^3.24.1?target=denonext": "https://esm.sh/zod@3.25.67?target=denonext"
+  },
+  "remote": {
+    "https://esm.sh/@did.coop/did-key-ed25519@0.0.9": "a4fca9550df40a375c4871b16c64eb939deaa985c64295fdf65870e433e17f12",
+    "https://esm.sh/@did.coop/did-key-ed25519@0.0.9/denonext/did-key-ed25519.mjs": "551277466133fee61816bcdee90ba2bbb3e331d65f786f234fcf6ee0ca81e225",
+    "https://esm.sh/@did.coop/did-key-ed25519@0.0.9/denonext/did-key.mjs": "617df5a80b9e95b0b362788323c7a70c68aa0b41a12bbae29452d45106058695",
+    "https://esm.sh/@did.coop/did-key-ed25519@0.0.9/denonext/lib/did.mjs": "20c18e5d4d6b40d91b79c148c69384d1c2634b9a575e0c487a133375bf3710d0",
+    "https://esm.sh/@digitalbazaar/did-io@2.0.0/denonext/did-io.mjs": "a54f174a43f078841fe9e2f79d99f5e365002b86ab088ee1b17f90c69b91ac35",
+    "https://esm.sh/@digitalbazaar/did-io@2.0.0?target=denonext": "3c0e569e80ffb80a3b215bae483a544a6d841a546955149ee379944f8fb2f3cf",
+    "https://esm.sh/@digitalbazaar/did-method-key@5.2.0/denonext/did-method-key.mjs": "f3aa54b4dd4ae44c3d6c5000488931c024ee5462fbab01499c7ef419647da575",
+    "https://esm.sh/@digitalbazaar/did-method-key@5.2.0?target=denonext": "8872178ff580d4e3e683bcbd5cde69c1d3c883f62f2a1c9da5caab2d5ec096d5",
+    "https://esm.sh/@digitalbazaar/ed25519-verification-key-2020@4.2.0/denonext/ed25519-verification-key-2020.mjs": "04d77051f1569a10846f69711f7271ce48ba829dd21fa31f396920d486bfc0b9",
+    "https://esm.sh/@digitalbazaar/ed25519-verification-key-2020@4.2.0?target=denonext": "a168467af2b997c8d2450b9da7b4d34693af0fa84f4505c6940bda04272a9f4c",
+    "https://esm.sh/@digitalbazaar/http-signature-header@5.0.1/denonext/http-signature-header.mjs": "443b1af7715383ebf1b9c3ed67a6f9a3bad0c33624658dd6f2690525a2089a0e",
+    "https://esm.sh/@digitalbazaar/http-signature-header@5.0.1?target=denonext": "fde6a138de0fd3878e8a86bb52f4924334951e1b85434095b03e3a308671cd9b",
+    "https://esm.sh/@digitalbazaar/lru-memoize@3.0.2/denonext/lru-memoize.mjs": "a28b6effe0853d927f9fd3ae38e79ac6f7b234f3caf4c3a09db74e748dbd698f",
+    "https://esm.sh/@digitalbazaar/lru-memoize@3.0.2?target=denonext": "b969a6981e5f2eed6516178b0bcba2b7e3f01dbade4f476548ddc5a3daa64058",
+    "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2019@6.0.0/denonext/x25519-key-agreement-key-2019.mjs": "c459c4383b02e4ca3a9242fdd81ea44076fee7b0094bb2c17b2ff9e0f4f8baf1",
+    "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2019@6.0.0?target=denonext": "b5addc7e0db5f39b1169ff9b9c754bcdf75027aec98cfac3261ebe684dcb0b34",
+    "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2020@3.0.1/denonext/x25519-key-agreement-key-2020.mjs": "4038e9109f8ff597c06cbb44b02facafd9c6993b8a38f67c4845f3b9977eec40",
+    "https://esm.sh/@digitalbazaar/x25519-key-agreement-key-2020@3.0.1?target=denonext": "0b7901d4f7cd6c62567c1586499b8b7c9dd8ab7c144016e1245760d25b82723f",
+    "https://esm.sh/@noble/ed25519@1.7.5/denonext/ed25519.mjs": "53085665256cbff1785487acd16f3382b25113c75b40a7a3d9212b42fdc8c552",
+    "https://esm.sh/@noble/ed25519@1.7.5?target=denonext": "6958f0693ff0590fa6a52e2df869e8afe650d993e527bf78fc16801e44f36208",
+    "https://esm.sh/@wallet.storage/fetch-client@1.2.0": "158a86b19dffead3d32b8a56fa6df0cea505101531b2c4a7a486018f27c2f379",
+    "https://esm.sh/@wallet.storage/fetch-client@1.2.0/denonext/fetch-client.mjs": "07828ecbdcbd064bfa806cecf2ab5b5e61ec089457e8fe1b79207c62e872f2ea",
+    "https://esm.sh/@wallet.storage/fetch-client@1.2.0/denonext/lib/activitypub.mjs": "9ec61ed0310bb088f5a4f8ca1aa169395f8dda48828c0acba66ca4139b37ade6",
+    "https://esm.sh/@wallet.storage/fetch-client@1.2.0/denonext/lib/urn-uuid.mjs": "4014ed04376a703b5115fd81df987d812861e3c25beac2e6abb063a17d1510b6",
+    "https://esm.sh/assert-plus@1.0.0/denonext/assert-plus.mjs": "a26db39160202df45537985ce895c9590a3a833a71f78e8ebe7a8ec1e7b5cf89",
+    "https://esm.sh/assert-plus@1.0.0?target=denonext": "3228f132fe30026eefe094014c6f2ae56db4eb0dc3053efb390dc5c8e7bf70f0",
+    "https://esm.sh/authorization-signature@1.1.0/denonext/authorization-signature.mjs": "71a7b22249b23b9ecb8b5b4ec73595354166df6f864e7e29a18d78d0521bdc37",
+    "https://esm.sh/authorization-signature@1.1.0?target=denonext": "633442fb5b17989db62e1a4511fc5784788594641b96d8a7b0e203065b2b402b",
+    "https://esm.sh/base58-universal@2.0.0/denonext/base58-universal.mjs": "825508bb78fbdc7ded38690623be565709150f4260cb48a58befa97f0d522d73",
+    "https://esm.sh/base58-universal@2.0.0?target=denonext": "39253303744db6828d71d27b71dd5fd0bea0b025d8cb287f27093263a2e78d34",
+    "https://esm.sh/base64url-universal@2.0.0/denonext/base64url-universal.mjs": "bad271c2946ff639e690ec7bdc20dbcacf8c7fe1143cbb427e56ead5e21981bd",
+    "https://esm.sh/base64url-universal@2.0.0?target=denonext": "f9130d39bf648eb227882f0218566f7b3a867363239bbc09007427f0be72355c",
+    "https://esm.sh/base64url@3.0.1/denonext/base64url.mjs": "807fc22d5dc043d7203de788b471e1fd76a6556d44b96a989446d387769a5833",
+    "https://esm.sh/base64url@3.0.1?target=denonext": "c8ede6c80304bad4abf16f187ed4ba1584bf6a37e37d2ba93e4e62f0ba59d0d9",
+    "https://esm.sh/crypto-ld@7.0.0/denonext/crypto-ld.mjs": "3f5fe1461959ac5d728e05b9a13e7e4433cdd78c2235b26b56ee30bf5c8d5621",
+    "https://esm.sh/crypto-ld@7.0.0?target=denonext": "8c7be03a6ffea110e4695fdee3ac78a1d17dbee0be9183c44dd1ad73d3377ea1",
+    "https://esm.sh/diffhtml@1.0.0-beta.30": "c568ac7c5f086de9b0625f6200b341fa5a18c2bd1e2fdd54465fe961f9e4be9c",
+    "https://esm.sh/diffhtml@1.0.0-beta.30/denonext/diffhtml.mjs": "0cb2edeb234d4f1ce690973651d42d2d8c7a3a5011b753b4d7ce09efe0ae2dbe",
+    "https://esm.sh/ed2curve@0.3.0/denonext/ed2curve.mjs": "dd648eef02cf3e808dcb9e675f59cd89509291437867d9e65be3d325a45c4dab",
+    "https://esm.sh/ed2curve@0.3.0?target=denonext": "fbe9603483229953bd6d1aa3c92c7833666651e1a1dbffb5f4f4da4a5cf99510",
+    "https://esm.sh/lru-cache@6.0.0/denonext/lru-cache.mjs": "d9499ff993c7c01024b84c48a1ad44b452bcb69df7a07c2a648fef4d9b3be419",
+    "https://esm.sh/lru-cache@6.0.0?target=denonext": "c270527af24689140b34193cc48d931b433fe00021d96589f02caacc70962f61",
+    "https://esm.sh/tweetnacl@1.0.3/denonext/tweetnacl.mjs": "2a972244e194f6e965cbe26ddc858dab7642621548d432d8f666b31f2b7c6d31",
+    "https://esm.sh/tweetnacl@1.0.3?target=denonext": "278caeeeb136b538b5839595306abfe0ed8e0263a990a446fd30d89aaef9a8c5",
+    "https://esm.sh/yallist@4.0.0/denonext/yallist.mjs": "a30e048d3ea0aa28563754e9d62a433fc98a461fd561de36a118137e24a91090",
+    "https://esm.sh/yallist@4.0.0?target=denonext": "d486878d2bf00f51b9904a2cef528954688c755cbba19e0fd1dd8fb8bf13f6f2",
+    "https://esm.sh/zod@3.25.67/denonext/zod.mjs": "a98934146e48c30c7e5f521f9ab9679d1d1cfa5649e82773470c80fd80743adb",
+    "https://esm.sh/zod@3.25.67?target=denonext": "7b70259ec8ba5d5a51852222b1eb6a2ab74126dfa8da7d0d75007a937a7118ac"
+  }
+}

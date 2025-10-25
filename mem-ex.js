@@ -1,4 +1,4 @@
-import app from '@silly/elf'
+import { Elf } from '@silly/types'
 
 const padding = 4
 
@@ -11,7 +11,7 @@ const initial = {
   invertY: false,
 }
 
-const computer = app('mem-ex', {
+const computer = Elf('mem-ex', {
   ...initial
 })
 
@@ -224,4 +224,4 @@ computer.style(`
   }
 `)
 
-app(computer)
+Elf(computer)
