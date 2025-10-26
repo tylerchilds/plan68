@@ -101,9 +101,9 @@
         "imports": {
           "@did.coop/did-key-ed25519": "https://esm.sh/@did.coop/did-key-ed25519",
           "@wallet.storage/fetch-client": "https://esm.sh/@wallet.storage/fetch-client@^1.1.3",
-          "@silly/elf": "/elf.js",
-          "@silly/saga": "/saga.js",
-          "@silly/types": "/types.js",
+          "@silly/elf": "/public/elf.js",
+          "@silly/saga": "/public/saga.js",
+          "@silly/types": "/public/types.js",
           "@geckos.io/client": "https://esm.sh/@geckos.io/client@3.0.0",
 
           "aframe": "https://esm.sh/aframe@1.5.0",
@@ -153,15 +153,18 @@
         parameters,
       }
     </script>
+    <script async type="module" src="/elves/hello-world.js"></script>
     <script async type="module" src="/elves/mem-ex.js"></script>
     <script async type="module" src="/elves/ur-shell.js"></script>
+    <script async type="module" src="/elves/root-shell.js"></script>
+    <script async type="module" src="/elves/generic-park.js"></script>
     <script async type="module" src="/elves/plan98-palette.js"></script>
   </head>
   <script>document.write(`<body pathname="${window.location.pathname}">`)</script>
     <data-tooltip>
     <data-popover>
       <main id="main">
-        <ur-shell></ur-shell>
+        <root-shell></root-shell>
       </main>
     </data-popover>
     </data-tooltip>

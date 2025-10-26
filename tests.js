@@ -60,7 +60,7 @@ import("npm:linkedom@0.18.5").then(async({ DOMParser }) => {
     Saga,
     Expect,
     Describe
-  } = await import('./types.js')
+  } = await import('./public/types.js')
 
   Describe('True is true', (done) => {
     Expect(True(), true)
