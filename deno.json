@@ -1,15 +1,16 @@
 {
   "name": "@plan98/silly",
   "version": "1.0.0",
-  "exports": "./plan68.js",
+  "exports": "./mod.js",
   "tasks": {
-    "start": "deno run -A https://plan98.org/server.js",
+    "start": "deno run --allow-net --allow-read mod.js",
     "test": "deno run --allow-env --config deno.json --location http://localhost tests.js"
   },
   "imports": {
     "@silly/elf": "./plan68.js",
     "@silly/saga": "./saga.js",
     "@did.coop/did-key-ed25519": "https://esm.sh/@did.coop/did-key-ed25519",
+    "@std/http": "jsr:@std/http@^1.0.21",
     "@wallet.storage/fetch-client": "https://esm.sh/@wallet.storage/fetch-client@^1.1.3",
     "diffhtml": "https://esm.sh/diffhtml@1.0.0-beta.30"
   },

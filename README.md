@@ -22,17 +22,19 @@ An Elf has self-transforming properties true
 ## Architecture.md
 
 * /
-  * index.html
-    * load this however
-    * optionally load as plan98.org/server.js default using `deno task start`
-  * elf.js
-    * a hypothetical elf
   * README.md
     * This file, heyo!
-  * saga.js
-    * A playwright processor for play
+  * index.html
+    * has the importmap for resolves '@silly/*' org URs
+    * try a cloud version like on [Plan98](https://plan98.org)
   * /public/
-    * resources available in public restrooms
+    * resources for the commonwealth of all
+      * types.js
+        * virtual machine assurance, like .java or .net or .ts
+      * elf.js
+        * establishes the self-transforming properties
+      * saga.js
+        * A playwright processor for playtime
   * /private/
     * resources hidden from .gitignore
   * /elves/
