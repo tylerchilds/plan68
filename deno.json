@@ -1,6 +1,6 @@
 {
   "name": "@plan98/silly",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "exports": "./plan68.js",
   "tasks": {
     "start": "deno run -A https://plan98.org/server.js",
