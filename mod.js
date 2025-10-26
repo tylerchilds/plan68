@@ -34,9 +34,15 @@ Deno.serve(
     });
 
     if (response.status === 404) {
-      return serveDir(new Request(new URL("http://localhost/index.html")), {
-        fsRoot: ".",
-      });
+      const TEMPLATE = await Deno.readTextFile("./index.html");
+
+      return new Response(TEMPLATE, {
+        status: 404,
+        headers: {
+          'content-type': 'text/html'
+        }
+      })
+
     }
 
     return response;
